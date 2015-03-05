@@ -110,7 +110,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-   s.resources = "SnowLayer/Resources/雪点-70%.png"
+   s.resources = "SnowLayer/Resources/snow-70%.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

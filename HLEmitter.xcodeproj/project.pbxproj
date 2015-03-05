@@ -17,7 +17,7 @@
 		4F2FB26C1AA8432000FD43BE /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2FB2651AA8432000FD43BE /* UIImage+Extension.m */; };
 		4F2FB26D1AA8432000FD43BE /* KKEmitterCustomLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2FB2681AA8432000FD43BE /* KKEmitterCustomLayer.m */; };
 		4F2FB26E1AA8432000FD43BE /* KKEmitterSnowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2FB26A1AA8432000FD43BE /* KKEmitterSnowCell.m */; };
-		4F2FB26F1AA8432000FD43BE /* 雪点-70%.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F2FB26B1AA8432000FD43BE /* 雪点-70%.png */; };
+		4F2FB2721AA85D8400FD43BE /* snow-70%.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F2FB2711AA85D8400FD43BE /* snow-70%.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		4F2FB2681AA8432000FD43BE /* KKEmitterCustomLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKEmitterCustomLayer.m; sourceTree = "<group>"; };
 		4F2FB2691AA8432000FD43BE /* KKEmitterSnowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKEmitterSnowCell.h; sourceTree = "<group>"; };
 		4F2FB26A1AA8432000FD43BE /* KKEmitterSnowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKEmitterSnowCell.m; sourceTree = "<group>"; };
-		4F2FB26B1AA8432000FD43BE /* 雪点-70%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雪点-70%.png"; sourceTree = "<group>"; };
+		4F2FB2711AA85D8400FD43BE /* snow-70%.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow-70%.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +134,7 @@
 		4F2FB2621AA8432000FD43BE /* SnowLayer */ = {
 			isa = PBXGroup;
 			children = (
+				4F2FB2701AA85D8400FD43BE /* Resources */,
 				4F2FB2631AA8432000FD43BE /* Category */,
 				4F2FB2661AA8432000FD43BE /* Snow */,
 			);
@@ -156,9 +157,16 @@
 				4F2FB2681AA8432000FD43BE /* KKEmitterCustomLayer.m */,
 				4F2FB2691AA8432000FD43BE /* KKEmitterSnowCell.h */,
 				4F2FB26A1AA8432000FD43BE /* KKEmitterSnowCell.m */,
-				4F2FB26B1AA8432000FD43BE /* 雪点-70%.png */,
 			);
 			path = Snow;
+			sourceTree = "<group>";
+		};
+		4F2FB2701AA85D8400FD43BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F2FB2711AA85D8400FD43BE /* snow-70%.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F2FB2481AA8428300FD43BE /* Main.storyboard in Resources */,
-				4F2FB26F1AA8432000FD43BE /* 雪点-70%.png in Resources */,
+				4F2FB2721AA85D8400FD43BE /* snow-70%.png in Resources */,
 				4F2FB24D1AA8428300FD43BE /* LaunchScreen.xib in Resources */,
 				4F2FB24A1AA8428300FD43BE /* Images.xcassets in Resources */,
 			);
@@ -458,6 +466,7 @@
 				4F2FB25E1AA8428300FD43BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F2FB25F1AA8428300FD43BE /* Build configuration list for PBXNativeTarget "HLEmitterTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +475,7 @@
 				4F2FB2611AA8428300FD43BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

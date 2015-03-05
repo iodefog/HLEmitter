@@ -41,7 +41,7 @@
 +(instancetype)emitterSnowCellWithCellImg:(NSString *)cellImg andRadious:(CGFloat)radious andVelocity:(CGFloat)velocity andDirection:(KKEmitterSnowCellDirection)direction
 {
 
-   NSString * const snowPic = @"雪点-70%.png";//雪花图片样式
+   NSString * const snowPic = @"snow-70%.png";//雪花图片样式
     
     KKEmitterSnowCell *cell=[[self alloc] init];
    
