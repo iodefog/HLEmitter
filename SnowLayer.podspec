@@ -88,8 +88,14 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
+  
+  s.subspec 'Category' do |ss|
+   s.source_files  = "SnowLayer/Category/*"
+  end
+ s.subspec 'Snow' do |sss|
+  s.source_files = "SnowLayer/Snow/*"
+ end 
 
-  s.source_files  = "SnowLayer/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
