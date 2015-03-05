@@ -90,17 +90,16 @@ Pod::Spec.new do |s|
   #
 
   s.subspec 'Category' do |ss|
-   s.source_files  = "SnowLayer/Category/*"
+   ss.source_files  = "SnowLayer/Category/*"
   end
 
-  s.subspec 'Snow' do |ss|
-   s.source_files  = "SnowLayer/Snow/*"
+  s.subspec 'Snow' do |sss|
+   sss.source_files  = "SnowLayer/Snow/*"
   end
 
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
