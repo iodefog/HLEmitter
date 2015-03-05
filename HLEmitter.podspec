@@ -90,11 +90,11 @@ Pod::Spec.new do |s|
   #
 
  # s.subspec 'Category' do |ss|
-   s.source_files  = "SnowLayer/Category/*"
+   s.source_files  = "SnowLayer/*"
  # end
 
   #s.subspec 'Snow' do |sss|
-   s.source_files  = "SnowLayer/Snow/*"
+  # s.source_files  = "SnowLayer/Snow/*"
   #end
 
   s.exclude_files = "Classes/Exclude"
