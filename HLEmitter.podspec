@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "SnowLayer"
+  s.name         = "HLEmitter"
   s.version      = "0.0.1"
   s.summary      = "A short description of HLEmitter."
 
@@ -89,13 +89,13 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.subspec 'Category' do |ss|
-   ss.source_files  = "SnowLayer/Category/*"
-  end
+ # s.subspec 'Category' do |ss|
+   s.source_files  = "SnowLayer/Category/*"
+ # end
 
-  s.subspec 'Snow' do |sss|
-   sss.source_files  = "SnowLayer/Snow/*"
-  end
+  #s.subspec 'Snow' do |sss|
+   s.source_files  = "SnowLayer/Snow/*"
+  #end
 
   s.exclude_files = "Classes/Exclude"
 
