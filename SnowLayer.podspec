@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint HLEmitter.podspec' to ensure this is a
+#  Be sure to run `pod spec lint SnowLayer.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,12 +15,12 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "HLEmitter"
+  s.name         = "SnowLayer"
   s.version      = "0.0.1"
-  s.summary      = "A short description of HLEmitter."
+  s.summary      = "A short description of SnowLayer."
 
   s.description  = <<-DESC
-                   A longer description of HLEmitter in Markdown format.
+                   A longer description of SnowLayer in Markdown format.
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
@@ -89,17 +89,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
- # s.subspec 'Category' do |ss|
-   s.source_files  = "SnowLayer/*"
- # end
-
-  #s.subspec 'Snow' do |sss|
-  # s.source_files  = "SnowLayer/Snow/*"
-  #end
-
+  s.source_files  = "SnowLayer/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
+
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
