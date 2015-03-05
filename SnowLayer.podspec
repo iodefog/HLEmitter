@@ -90,10 +90,10 @@ Pod::Spec.new do |s|
   #
   
   s.subspec 'Category' do |ss|
-   s.source_files  = "SnowLayer/Category/*"
+   ss.source_files  = "SnowLayer/Category/*"
   end
  s.subspec 'Snow' do |sss|
-  s.source_files = "SnowLayer/Snow/*"
+  sss.source_files = "SnowLayer/Snow/*"
  end 
 
   s.exclude_files = "Classes/Exclude"
@@ -110,7 +110,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+   s.resources = "SnowLayer/Resources/雪点-70%.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
